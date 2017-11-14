@@ -9,15 +9,48 @@
 </head>
 
 <body>
-    <nav>
-        <a href="index.html"><img src="Pictures/Inkwell.png" alt="Inkwell Logo" height="100"></a>
-        <a href="index.html">Home</a>
-        <a href="writingtips.html">Writing Tips</a>
-        <a href="recommend.html">We Recommend</a>
-        <a href="aboutus.html">About Us</a>
-        <a href="signup.html">Sign-Up</a>
-    </nav>
+    <header>
+        <nav>
+            <div>
+                
+                <a href="index.html"><img src="Pictures/Inkwell.png" alt="Inkwell Logo" height="100"></a>
 
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="writingtips.html">Writing Tips</a>
+                    <a href="recommend.html">We Recommend</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="signup.html">Sign-Up</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="signup">
+
+        <h1>Sign up!</h1>
+
+        <form method="get">
+
+            <label>First Name:<input type="text" name="fname" id="fname"></label>
+            <br><br>
+
+            <label>Last Name:<input type="text" name="lname" id="lname"></label>
+            <br><br>
+
+            <label>Email:<input type="text" name="email" id="email"></label>
+            <br><br>
+
+            <label for="comments">Comments:</label>
+            <br>
+
+            <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            <br><br>
+
+            <input type="submit"> <input type="reset">
+
+        </form>
+    </div>
 </body>
 
 </html>
