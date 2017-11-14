@@ -1,0 +1,60 @@
+html {
+    color: #0b0131;
+    font-size: 20px;
+    font-family: "arial", "sans-serif";
+}
+
+body {
+    background-image: url("Pictures/BGparchment1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+
+a {
+    padding: 0px 15px 0px 0px;
+    color: #0b0131;
+    font-family: "impact", "sans-serif";
+    font-size: 30px;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #05008e;
+}
+
+div {
+    padding-left: 110px;
+}
+
+p {
+    font-weight: 800;
+    width: 70%;
+}
+
+.authorquote {
+    font-weight: bold;
+    font-family: "arial", "sans-sefif";
+    font-size: 15px;
+}
+
+.float {
+    float: left;
+}
+
+#clearleft {
+    clear: left;
+    padding-top: 20px;
+    width: 50%;
+}
+
+li {
+    font-weight: 600;
+    width: 70%;
+}
+
+h1 {
+    font-family: fantasy;
+}
