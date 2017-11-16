@@ -12,7 +12,7 @@
     <header>
         <nav>
             <div>
-                
+
                 <a href="index.html"><img src="Pictures/Inkwell.png" alt="Inkwell Logo" height="100"></a>
 
                 <ul>
@@ -28,7 +28,7 @@
 
     <div class="signup">
 
-        <h1>Sign up!</h1>
+        <h1>Sign Up For SPOOKY E-mails!</h1>
 
         <form method="get">
 
@@ -41,11 +41,34 @@
             <label>Email:<input type="text" name="email" id="email"></label>
             <br><br>
 
+            <label for="password">Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
             <label for="comments">Comments:</label>
             <br>
 
             <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
             <br><br>
+
+            <label for="rating">Rating: (1-10)</label>
+            <input type="range" name="rating" id="rating" min="1" max="10">
+            <br><br>
+
+            <select name="dogs">
+                <option value="0">-select one-</option>
+                <option value="1">doggy</option>
+                <option value="2">pupper</option>
+                <option value="3">Doggo</option>
+            </select>
+            
+            <fieldset>
+                <legend>The Only Things That Matter</legend>
+                <input type="checkbox" name="Shrekbox" value="Shrek">Shrek<br>
+                <input type="checkbox" name="Shrekbox2" value="Shrek2">Shrek 2<br><br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+            </fieldset>
 
             <input type="submit"> <input type="reset">
 
