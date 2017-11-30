@@ -5,10 +5,10 @@ html {
 }
 
 body {
-    background-image: url("Pictures/BGparchment1.jpg");
+    background-image: url("Pictures/ocean.jpg");
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
 
 }
 
@@ -57,4 +57,33 @@ li {
 
 h1 {
     font-family: fantasy;
+}
+
+table,
+th,
+td {
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:0 auto;
+    opacity: .85;
+}
+
+th,
+td {
+    color:#00108e;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+
+th {
+    background-color:#8bffff;
+}
+
+tr:nth-child(even){
+    background: #aaa;
+}
+
+tr:nth-child(odd) {
+    background: #b3ffff;
 }
