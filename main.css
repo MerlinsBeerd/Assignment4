@@ -8,8 +8,17 @@ body {
     background-image: url("Pictures/ocean.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 120vh;
 
+}
+
+.nav {
+    float: left;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 10px;
 }
 
 a {
@@ -25,8 +34,15 @@ a:hover {
     text-decoration-color: #05008e;
 }
 
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 div {
-    padding-left: 110px;
+    float: left;
+    padding-left: 50px;
+
 }
 
 p {
@@ -49,41 +65,6 @@ p {
     padding-top: 20px;
     width: 50%;
 }
-
-li {
-    font-weight: 600;
-    width: 70%;
-}
-
-h1 {
-    font-family: fantasy;
-}
-
-table,
-th,
-td {
-    border:1px solid black;
-    border-collapse:collapse;
-    margin:0 auto;
-    opacity: .85;
-}
-
-th,
-td {
-    color:#00108e;
-    padding: 10px;
-    text-align: center;
-    width: auto;
-}
-
-th {
-    background-color:#8bffff;
-}
-
-tr:nth-child(even){
-    background: #89bbf5;
-}
-
-tr:nth-child(odd) {
-    background: #b3ffff;
-}
+.signup {
+        clear:left;
+    }
